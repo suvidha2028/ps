@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS5 Rental - Suvidha Gaming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            font-size: 24px;
+            background: linear-gradient(to right, #1a1a1a, #333);
+        }
+        .ps5-container {
+            margin-top: 50px;
+            animation: float 3s infinite ease-in-out;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        .games {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .game {
+            width: 200px;
+            padding: 10px;
+            background-color: #222;
+            border-radius: 10px;
+        }
+        .game img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .book-now {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: red;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .book-now:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <header>Suvidha Gaming - PS5 Rentals</header>
+    
+    <div class="ps5-container">
+        <img src="ps5.png" alt="PS5 Console" width="300">
+    </div>
+    
+    <h2>Available Games</h2>
+    <div class="games">
+        <div class="game">
+            <img src="fifa.jpg" alt="FIFA 25">
+            <p>FIFA 25</p>
+        </div>
+        <div class="game">
+            <img src="wwe.jpg" alt="WWE 2K25">
+            <p>WWE 2K25</p>
+        </div>
+        <div class="game">
+            <img src="gt7.jpg" alt="Gran Turismo 7">
+            <p>Gran Turismo 7</p>
+        </div>
+    </div>
+    
+    <a href="https://wa.me/918591983519" class="book-now">Book Now on WhatsApp</a>
+</body>
+</html>
